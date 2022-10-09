@@ -1,0 +1,227 @@
+:root {
+    --main-color: #37373f;
+    --bg-light: #eeeeee;
+    --color-red: #ce1212;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar a {
+    color: #818493!important;
+    font-weight: bold;
+}
+.why {
+    background-color: var(--color-red);
+}
+.why button {
+    background-color: #dd5a5a;
+    transition: all 0.25s;
+}
+.why button:hover {
+    background-color: #fff;
+    color: var(--color-red) !important;
+}
+.lightt {
+    background-color: var(--bg-light) !important;
+}
+.navbar .navbar-nav .nav-link .active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:hover {
+    color: #000 !important;
+}
+.home {
+    background-color: var(--bg-light);
+}
+.home h2 {
+    color: var(--main-color)!important;
+    
+}
+.header-content h2 {
+    font-size: 64px!important;
+    font-family: 'Amatic SC', cursive;
+}
+.second-btn {
+    color: rgb(163, 19, 19);
+    transition: all 0.25s;
+}
+.second-btn:hover {
+    color: rgb(219, 20, 20);
+}
+/* ---------------------------------------------about------------------------------------------- */
+.titlle h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+}
+.about-content p {
+    color: var(--main-color);
+}
+.about-img .icon i {
+    padding: 25px;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--color-red);
+    transition: all 0.25s;
+}
+.about-img .icon i:hover {
+    padding: 30px;
+    background-color: rgb(182, 18, 18);
+}
+.more-about {
+    background-color: var(--bg-light);
+}
+.more-about .pragg-1 {
+    font-size: 18px;
+    transition: all 0.25s;
+}
+.more-about .pragg-2 {
+    font-size: 16px;
+    transition: all 0.25s;
+}
+.more-about i {
+    font-size: 22px;
+    color: var(--color-red);
+    transition: all 0.25s;
+}
+.content-1:hover i {
+    font-size: 26px;
+}
+.content-1:hover .pragg-1 {
+    font-size: 20px;
+}
+.content-1:hover .pragg-2 {
+    font-size: 17px;
+}
+/* ---------------------------------------------rate------------------------------------------- */
+.rate {
+    background-image: url(../images/stats-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.rate-layer {
+    background-color: rgba(0, 0, 0, 0.568);
+    position: relative;
+}
+/* ---------------------------------------------menu------------------------------------------- */
+.menu-links .activeate {
+    color: #000;
+    position: relative;
+}
+.menu-links .activeate::after {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    width: 80px;
+    height: 2px;
+}
+.menu-links a {
+    color: #818493;
+}
+.menu-links a:hover {
+    color: #000;
+    transition: all 0.25s;
+}
+/* ---------------------------------------------Testimonials------------------------------------------- */
+.testimonials-carousel .tab {
+    background-color: var(--color-red) !important;
+}
+.testimonial-one {
+    border-left: 3px solid var(--color-red);
+}
+.testimonial-one .star {
+    color: yellow;
+}
+/* ---------------------------------------------Chefs------------------------------------------- */
+.chef-img img {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.chef-caption {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+
+
+
+.event-1-content {
+    background-image: url(../images/events-1.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.event-1-layer {
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 500px;
+    position: relative;
+}
+.event-1-layer .lol {
+    position: absolute;
+    bottom: 0px;
+}
+.event-1-layer .lol h2::after {
+    content: "";
+    background-color: var(--color-red);
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    width: 60px;
+    height: 2px;
+}
+
+.event-2-content {
+    background-image: url(../images/events-2.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.event-2-layer {
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 500px;
+    position: relative;
+}
+.event-2-layer .lol {
+    position: absolute;
+    bottom: 0px;
+}
+.event-2-layer .lol h2::after {
+    content: "";
+    background-color: var(--color-red);
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    width: 60px;
+    height: 2px;
+}
+
+.event-3-content {
+    background-image: url(../images/events-3.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.event-3-layer {
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 500px;
+    position: relative;
+}
+.event-3-layer .lol {
+    position: absolute;
+    bottom: 0px;
+}
+.event-3-layer .lol h2::after {
+    content: "";
+    background-color: var(--color-red);
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    width: 60px;
+    height: 2px;
+}
+
+.social-iconns i:hover {
+    color: #fff !important;
+    cursor: pointer;
+    transition: all 0.25s;
+}
